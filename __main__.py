@@ -274,7 +274,7 @@ class MainWindow(QMainWindow, Ui_MainWindow):
             self,
             'Open',
             SAVEFILE_PATH,
-            'Autosave (autosave_s.json);;JSON Files (*.json);;All Files (*)',
+            'JSON Files (*.json);;All Files (*)',
             options=options
         )
 
@@ -296,7 +296,7 @@ class MainWindow(QMainWindow, Ui_MainWindow):
                 self,
                 'Save',
                 SAVEFILE_PATH,
-                'Autosave (autosave_s.json);;JSON Files (*.json);;All Files (*)',
+                'JSON Files (*.json);;All Files (*)',
                 options=options
             )
             if file_name:
